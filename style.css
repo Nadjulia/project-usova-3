@@ -167,6 +167,10 @@ body {
     margin-bottom: 20px;
 }
 
+.main__list-contact {
+    padding-left: 20px;
+}
+
 /*--footer--*/
 .footer {
     width: 100%;
@@ -174,4 +178,5 @@ body {
     color: #ffffff;
     display: flex;
     justify-content: center;
+
 }
