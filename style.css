@@ -1,0 +1,177 @@
+html {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(240, 249, 254);;
+}
+
+.title {
+    color: rgba(34, 56, 109);
+    font-size: 22px;
+    margin: 0;
+}
+
+/*--header--*/
+.header {
+    background-color: rgba(34, 56, 109);
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+/*--nav--*/
+.nav {
+    padding: 15px;
+}
+
+.nav__list {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav__item {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.nav__link {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+/*--main--*/
+.main__blok {
+    width: 90%;
+    background-color: #ffffff;
+    margin: 0 auto 20px;
+    box-shadow: 0 0 10px #616161d0;
+    border-radius: 5px;
+    padding: 25px 10px 5px;
+}
+
+.main__text {
+    font-size: 14px;
+}
+
+.main__title-text {
+    color: rgb(34, 56, 109);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.main__text-chapter {
+    color: rgb(34, 56, 109);
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.main__list-ol {
+    padding: 0 20px;
+}
+
+.main__table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.main__cell-title {
+    background-color: rgb(242, 242, 242);
+    border: 1px solid rgb(209, 209, 209);
+    padding: 10px;
+}
+.main__cell {
+    border: 1px solid rgb(209, 209, 209);
+    padding: 10px;
+}
+
+.main__img {
+    width: 30%;
+}
+
+.main__text-description {
+    font-size: 11px;    
+}
+
+.main__text + ul {
+    padding: 0 20px;
+}
+
+.main__form-content {
+    padding: 20px 0 10px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.main__label {
+    display: inline-block;
+    margin: 0 0 5px;
+}
+
+.main__input-text {
+    border: 2px solid rgb(242, 242, 242);
+    border-radius: 4px;
+    outline: 0;
+    display: block;
+    width: 99%;
+}
+
+.main__fall-list {
+    border: 2px solid rgb(242, 242, 242);
+    width: 100%;
+    outline: 0;
+    margin-bottom: 15px;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.main__radio, .main__checkbox {
+    display: block;
+    margin: auto;
+}
+
+.main__message {
+    border: 2px solid rgb(242, 242, 242);
+    width: 99%;
+    outline: 0;
+    margin: 0 0 20px;
+}
+
+.main__btn {
+    background-color: rgb(44, 68, 124);
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 10px;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.main__contact {
+    margin-bottom: 20px;
+}
+
+.main__contact .title {
+    margin-bottom: 20px;
+}
+
+/*--footer--*/
+.footer {
+    width: 100%;
+    background-color: rgba(34, 56, 109);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}

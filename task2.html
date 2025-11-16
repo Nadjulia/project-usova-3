@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>    
+    <header class="header">
+        <nav class="header__nav nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="#project">О проекте</a></li>
+                <li class="nav__item"><a  class="nav__link" href="#route">Направления</a></li>
+                <li class="nav__item"><a  class="nav__link" href="#gallery">Галерея</a></li>
+                <li class="nav__item"><a  class="nav__link" href="#plan">Планирование</a></li>
+                <li class="nav__item"><a  class="nav__link" href="#contact">Контакты</a></li>
+            </ul>            
+        </nav>
+    </header>
+    <main class="main">
+        <section class="main__project main__blok">
+            <h2 class="main__title-text title" id="project">О проекте</h2>
+            <p class="main__text">Добро пожаловать на сайт "Путешествия по России"! Здесь вы найдёте информацию о самых интересных местах нашей страны.</p>
+            <p class="main__text">Россия - самая большая страна в мире, и на её территории расположено множество уникальных природных и культурных достопримечательностей.</p>
+        </section>
+        <section class="main__route main__blok">
+            <h2 class="main__title-text title" id="route">Популярные направления</h2>
+            <p class="main__text-chapter">Топ-5 направлений для путешествий по России:</p>
+            <ol class="main__list-ol">
+                <li>Озеро Байкал</li>
+                <li>Камчатка</li>
+                <li>Золотое кольцо России</li>
+                <li>Алтай</li>
+                <li>Калининградская область</li>
+            </ol>
+            <p class="main__text-chapter">Сравнение направлений</p>
+            <table class="main__table">
+                <tr>
+                    <th class="main__cell-title">Направление</th>
+                    <th class="main__cell-title">Лучшее время для посещения</th>
+                    <th class="main__cell-title">Средняя стоимость поездки</th>
+                </tr>
+                <tr>
+                    <td class="main__cell">Озеро Байкал</td>
+                    <td class="main__cell">Июль-август</td>
+                    <td class="main__cell">30 000 руб.</td>
+                </tr>
+                <tr>
+                    <td class="main__cell">Камчатка</td>
+                    <td class="main__cell">Июль-сентябрь</td>
+                    <td class="main__cell">70 000 руб.</td>
+                </tr>
+                <tr>
+                    <td class="main__cell">Золотое кольцо</td>
+                    <td class="main__cell">Май-сентябрь</td>
+                    <td class="main__cell">20 000 руб.</td>
+                </tr>
+                <tr>
+                    <td class="main__cell">Алтай</td>
+                    <td class="main__cell">Июнь-август</td>
+                    <td class="main__cell">25 000 руб.</td>
+                </tr>
+            </table>
+        </section>
+        <section class="main__gallery main__blok">
+            <h2 class="main__title-text title" id="gallery">Галерея</h2>
+            <p class="main__text-chapter">Озеро Байкал</p>
+            <img class="main__img" src="https://imcdn.bolshayastrana.com/1200x00/BS_18c20d1ebb3cb47a7990e6e845f7881d100dc1127c56e7ef42d429b488125b4d.jpeg">
+            <p class="main__text-description">Озеро Байкал - самое глубокое озеро в мире</p>
+
+            <p class="main__text-chapter">Камчатка</p>
+            <img class="main__img" src="https://kamchatka-ekskursiya.ru/images/tild6464-3731-4263-a465-366633393765__photo_2024-03-13_155.jpeg">
+            <p class="main__text-description">Камчатка - край вулканов и гейзеров</p>
+
+            <p class="main__text-chapter">Алтай</p>
+            <img class="main__img" src="https://static.tildacdn.com/tild6538-3261-4431-b432-313032383461/shavlinskie-ozera-fo.jpg">
+            <p class="main__text-description">Алтай - горный край с уникальной природой</p>
+            <p class="main__text">Больше фотографий вы можете найти на наших ресурсах:</p>
+            <ul>
+                <li><a href="#">Фото Байкала</a></li>
+                <li><a href="#">Фото Камчатки</a></li>
+                <li><a href="#">Фото Алтая</a></li>
+            </ul>
+        </section>
+        <section class="main__form main__blok">
+            <h2 class="main__title-text title" id="plan">Планирование путешествия</h2>
+            <form class="main__form-content" action="#" method="post">
+                <label class="main__label" for="username">Ваше имя:</label><br>
+                <input class="main__input-text" is="username" type="text"><br>
+
+                <label class="main__label" for="email">Email:</label><br>
+                <input class="main__input-text" id="email" type="email"><br>
+
+                <label class="main__label" for="">Выберите направление:</label><br>
+                <select class="main__fall-list" name="" id="">
+                    <option class="main__fall-item" value="">--Выберите направление--</option>
+                    <option value="">Байкал</option>
+                    <option value="">Камчатка</option>
+                    <option value="">Алтай</option>
+                </select><br>
+
+                <label class="main__label">Тип путешествия:</label><br>
+                
+                <label for="individual">Индивидуальное</label><br>
+                <input class="main__radio" type="radio" id="individual" name="tour"><br>
+
+                <label for="group">Групповое</label><br>
+                <input class="main__radio" type="radio" id="group" name="tour"><br>                
+
+                <label class="main__label">Дополнительные услуги:</label><br>
+
+                <label for="guide">Гид</label><br>
+                <input class="main__checkbox" id="guide" type="checkbox" name="service" value="guide"><br>
+
+                <label for="transfer">Трансфер</label><br>
+                <input class="main__checkbox" id="transfer" type="checkbox" name="service" value="transfer"><br>
+
+                <label for="insurance">Страховка</label><br>
+                <input class="main__checkbox" id="insurance" type="checkbox" name="service" value="insurance"><br>
+
+                <label class="main__label" for="message">Комментарии и пожелания:</label><br>
+                <textarea class="main__message" name="" id="message"></textarea><br>
+
+                <button class="main__btn" type="submit">Отправить заявку</button>
+                <button class="main__btn" type="reset" >Очистить форму</button>
+
+            </form>
+        </section>
+        <section class="main__contact main__blok">
+            <h2  class="main__title-text title" id="contact">Контакты</h2>
+            <p>Свяжитесь с нами для получения дополнительной информации:</p>
+            <ul>
+                <li>Телефон: <a href="tel:+7 (999) 123-45-67">+7 (999) 123-45-67</a></li>
+                <li>Email: <a href="mailto:info@travel-russia.ru">info@travel-russia.ru</a></li>
+                <li>Адрес: Москва, ул. Путешественников, д. 10</li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__text">&copy2023 Путешествия по России. Все права защищены.</p>
+    </footer>    
+</body>
+</html>
